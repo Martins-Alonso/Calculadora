@@ -2,8 +2,8 @@
 
 #Primeiro Nuḿero:
 #Segunda Núnmero:
-#Operação:
-#Resultado:' '
+#Resultado:
+#Operação: ' '
 
 num1= int(input('Digite o primeiro número:'))
 
@@ -11,5 +11,26 @@ op=input('Digite a operação:')
 
 num2= int(input('Digite o segundo número:'))
 
-print(num1,op,num2)
+if op == '+' :
+    Resultado = num1 + num2
+
+elif op == '-' :
+    Resultado = num1 - num2
+
+elif op == '*':
+
+    Resultado = num1 * num2
+
+elif op == '/':
+
+    Resultado = num1 / num2
+
+else:
+
+    Resultado = ' Operação inválida'
+
+print(num1,num2,op,Resultado)
+
+
+
 
