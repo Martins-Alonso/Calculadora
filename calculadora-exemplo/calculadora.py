@@ -1,35 +1,34 @@
 #Calculadora Simples
 
-#Primeiro Nuḿero:
-#Segunda Núnmero:
+#Primeiro Número:
+#Segundo Número:
 #Resultado:
 #Operação: ' '
 
-num1= int(input('Digite o primeiro número:'))
+numero_1 = int(input('Digite o primeiro número:'))
 
-op=input('Digite a operação:')
+operacao = input('Digite a operação desejada:')
 
-num2= int(input('Digite o segundo número:'))
+numero_2 = int(input('Digite o segundo número:'))
 
-if op == '+' :
-    Resultado = num1 + num2
+if ():
 
-elif op == '-' :
-    Resultado = num1 - num2
+    numero_1 + numero_2
 
-elif op == '*':
+elif():
 
-    Resultado = num1 * num2
+    numero_1 - numero_2
 
-elif op == '/':
+elif ():
 
-    Resultado = num1 / num2
+    numero_1 * numero_2
 
-else:
+elif ():
 
-    Resultado = ' Operação inválida'
+    numero_1 / numero_2
 
-print(num1,num2,op,Resultado)
+        
+
 
 
 
