@@ -11,21 +11,30 @@ operacao = input('Digite a operação desejada:')
 
 numero_2 = int(input('Digite o segundo número:'))
 
-if ():
+if operacao == ' + ':
 
-    numero_1 + numero_2
+    Resultado = numero_1 + numero_2
 
-elif():
+elif operacao == ' - ' :
 
-    numero_1 - numero_2
+    Resultado =numero_1 - numero_2
 
-elif ():
+elif operacao == ' * ':
 
-    numero_1 * numero_2
+      Resultado = numero_1 * numero_2
 
-elif ():
+elif operacao == ' / ':
 
-    numero_1 / numero_2
+    Resultado = numero1 / numero_2
+
+else:
+
+    Resultado =('Digite novamente,algo saiu errado')
+
+    print(str(numero_1) + str(numero_2) + str(operacao) + str (Resultado))
+
+
+
 
         
 
